@@ -1,1 +1,1 @@
-export declare function generateOverlay(qrCodeURL: string, label: string, logoURL?: string): any;
+export declare function generateOverlay(qrCodeURL: string, phrase: string, logoURL: string): void;

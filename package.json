@@ -1,6 +1,6 @@
 {
   "name": "qr-code-overlay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates overlay for QR codes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,7 +22,8 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
+    "@types/jimp": "^0.2.28",
     "@types/node": "^12.7.5",
-    "canvas": "^2.6.0"
+    "jimp": "^0.8.1"
   }
 }
